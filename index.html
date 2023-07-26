@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Fruit Website</title>
     <!-- DaisyUi Link -->
 
     <link
@@ -13,5 +13,77 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body></body>
+  <body>
+    <!-- NavBar Section -->
+    <div>
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </label>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            >
+             
+          </div>
+          <img src="./images/logo.png" alt="">Fruit Burst
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            
+            <li tabindex="0"></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn">Search</a>
+        </div>
+      </div>
+    </div>
+    <!-- Navbar Ends -->
+
+    <!-- Header Section Starts-->
+    <div>
+        <div class="w-[calc(100vw-15%)] m-auto"> 
+            <div class="hero min-h-screen" style="background-image: url('./images/banner1.png');">
+                <div class="hero-overlay bg-opacity-40"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="max-w-md">
+                    <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your <br> doorstep</h1>
+                    <p class="mb-5">We supply highly quality organic products</p>
+                    <button class="btn btn-primary">Shop Now</button>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    <!-- Margin Top Section Starts -->
+    <div class="flex flex-col w-[calc(100vw-25%)] m-auto -mt-20">
+        <div class="grid lg:grid-cols-5  h-48 card  bg-white rounded-box place-items-center"> 
+            <img src="./images/fruit1.png" alt="">
+            <img src="./images/fruit2.png" alt="">
+            <img src="./images/fruit3.png" alt="">
+            <img src="./images/fruit4.png" alt="">
+            <img src="./images/fruit5.png" alt="">
+        </div> 
+        <div class="divider"></div> 
+       
+      </div>
+    <!-- Margin Top Section Ends -->
+     <!-- Header Section ends-->
+  </body>
 </html>
